@@ -99,9 +99,14 @@
 
 //.p-service
 .p-service {
-  overflow: hidden;
+
+  .swiper-wrapper {
+    transform: none !important;
+  }
 
   #swiper-slide {
+    overflow: hidden !important;
+
     & .swiper-slide__box {
       width: 86%;
     }
@@ -214,7 +219,11 @@
 
   & .sns-list {
     justify-content: flex-end;
-    margin: -9vw 17px 0 0;
+    margin: -9vw -17px 0 0;
+
+    & a {
+      margin: 0 5px;
+    }
   }
 
   & .logo {
@@ -346,6 +355,25 @@
   & .policy1 {
     &__desc {
       text-align: center;
+    }
+  }
+
+  & .feature {
+    &__item {
+      display: flex;
+      justify-content: space-between;
+
+      &:nth-child(2) {
+        flex-direction: row-reverse;
+      }
+    }
+
+    &__img {
+      width: 48%;
+    }
+
+    &__desc {
+      width: 48%;
     }
   }
 }
