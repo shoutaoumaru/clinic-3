@@ -547,7 +547,7 @@ a:visited {
 }
 
 .p-footer .inner {
-  margin: 10% 0 15%;
+  margin: 10% 0;
   text-align: center;
 }
 
@@ -569,7 +569,10 @@ a:visited {
 }
 
 .p-footer .sns-list a {
-  display: block;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
 }
 
 .p-footer .sns-list li {

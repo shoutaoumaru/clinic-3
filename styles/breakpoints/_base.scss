@@ -567,9 +567,8 @@ a:visited {
     }
   }
 
-
   .inner {
-    margin: 10% 0 15%;
+    margin: 10% 0;
     text-align: center;
 
     & address {
@@ -586,7 +585,10 @@ a:visited {
     justify-content: center;
 
     & a {
-      display: block;
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      margin: 0 10px;
     }
 
     & li {
