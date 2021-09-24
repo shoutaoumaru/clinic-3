@@ -35,7 +35,6 @@
   }
 }
 
-
 .p-header {
   & .logo {
     width: 23%;
@@ -99,7 +98,6 @@
 
 //.p-service
 .p-service {
-
   .swiper-wrapper {
     transform: none !important;
   }
@@ -123,7 +121,7 @@
   }
 }
 
-//.p-point 
+//.p-point
 .p-point {
   &__item {
     display: flex;
@@ -157,8 +155,6 @@
     width: 45%;
   }
 
-
-
   & address {
     padding: 10px;
     margin: 0%;
@@ -173,9 +169,8 @@
   }
 
   & .c-txt-xs {
-    letter-spacing: .2px;
+    letter-spacing: 0.2px;
   }
-
 }
 
 //.p-news
@@ -212,10 +207,9 @@
     width: 28%;
 
     & p {
-      font-size: .9rem;
+      font-size: 0.9rem;
     }
   }
-
 
   & .sns-list {
     justify-content: flex-end;
@@ -236,7 +230,7 @@
   }
 }
 
-// * * * * * * * * * news-page * * * * * * 
+// * * * * * * * * * news-page * * * * * *
 .c-news {
   padding: 0;
 
@@ -261,7 +255,7 @@
   }
 }
 
-// * * * * * * * * * news-sl-page * * * * * * 
+// * * * * * * * * * news-sl-page * * * * * *
 .c-news-sl {
   padding: 10vw;
 
@@ -270,7 +264,7 @@
   }
 
   &__list {
-    padding: 5vw 0 0 0;
+    padding: 1vw 0 0 0;
   }
 
   &__link {
@@ -278,9 +272,8 @@
   }
 }
 
-// * * * * * * * * * about-page * * * * * * 
+// * * * * * * * * * about-page * * * * * *
 .about-wrapper {
-
   .c-policy {
     &__title {
       & .c-title {
@@ -315,10 +308,10 @@
       & a {
         font-size: 10px;
         padding: 10px 12px 10px 40px;
-        background: #8D9CAB url(/images/ico-arrow-white.svg) no-repeat left 5px center;
+        background: #8d9cab url(/images/ico-arrow-white.svg) no-repeat left 5px
+          center;
       }
     }
-
   }
 
   & .simple {
@@ -378,9 +371,8 @@
   }
 }
 
-// * * * * * * * * * doctor-page * * * * * * 
+// * * * * * * * * * doctor-page * * * * * *
 .doc-contents {
-
   .c-txt-sm {
     line-height: 1.5;
   }
@@ -433,7 +425,7 @@
   }
 }
 
-// * * * * * * * * * faq-page * * * * * * 
+// * * * * * * * * * faq-page * * * * * *
 .faq-contents {
   & .c-container {
     padding: 0 7vw;
@@ -480,7 +472,7 @@
   }
 }
 
-// * * * * * * * * * service-page * * * * * * 
+// * * * * * * * * * service-page * * * * * *
 .service-contents {
   .c-subtitle {
     margin-bottom: 1.5vw;
@@ -554,7 +546,7 @@
   }
 }
 
-// * * * * * * * * * recruit-page * * * * * * 
+// * * * * * * * * * recruit-page * * * * * *
 .contents-recruit {
   .c-table01 {
     & tr {

@@ -111,12 +111,11 @@
   display: none;
 }
 
-//* * * * * * * news-page * * * * * * *   
+//* * * * * * * news-page * * * * * * *
 .c-news {
   margin-top: 15vw;
 
   &__link {
-
     & span,
     & p {
       font-size: 1.3rem;
@@ -124,9 +123,9 @@
   }
 }
 
-// * * * * * * * * * news-sl-page * * * * * * 
+// * * * * * * * * * news-sl-page * * * * * *
 .c-news-sl {
-  padding: 35vw 10vw 20vw 10vw;
+  padding: 10vw 10vw 10vw 10vw;
 
   &__contents {
     padding: 10vw 0;
@@ -152,9 +151,8 @@
   }
 }
 
-// * * * * * * * * * about-page * * * * * * 
+// * * * * * * * * * about-page * * * * * *
 .about-wrapper {
-
   .c-policy {
     margin-top: 10%;
 
@@ -164,7 +162,7 @@
   }
 }
 
-// * * * * * * * * * doctor-page * * * * * * 
+// * * * * * * * * * doctor-page * * * * * *
 .doc-contents {
   & .c-txt-sm {
     line-height: 2;
@@ -197,21 +195,21 @@
   }
 }
 
-// * * * * * * * * * service-page * * * * * * 
+// * * * * * * * * * service-page * * * * * *
 .service-contents {
   .c-txt-lr {
     font-size: 28px;
   }
 }
 
-// * * * * * * * * * faq-page * * * * * * 
+// * * * * * * * * * faq-page * * * * * *
 .faq-contents {
   & .faq {
     margin: 20vw 0 0 0;
   }
 }
 
-// * * * * * * * * * recruit-page * * * * * * 
+// * * * * * * * * * recruit-page * * * * * *
 .contents-recruit {
   margin-top: 15vw;
 
@@ -230,7 +228,6 @@
     &-subtitle {
       margin-bottom: 5vw;
     }
-
   }
 
   .c-table01 {
@@ -241,7 +238,7 @@
   }
 }
 
-// * * * * * * * * * recruit-page * * * * * * 
+// * * * * * * * * * recruit-page * * * * * *
 .contents-recruit {
   & .recruit {
     &-message {
@@ -258,7 +255,6 @@
     &-subtitle {
       margin-bottom: 5vw;
     }
-
   }
 
   .c-table01 {
