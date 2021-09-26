@@ -19,7 +19,8 @@
   }
 }
 
-.c-topview {}
+.c-topview {
+}
 
 .btn-link2 {
   & a {
@@ -31,7 +32,6 @@
 
 //.p-top
 .p-top {
-
   & .swiper-container {
     height: 50vh;
 
@@ -100,9 +100,8 @@
   }
 }
 
-// * * * * * * * * * about-page * * * * * * 
+// * * * * * * * * * about-page * * * * * *
 .about-wrapper {
-
   & .swiper-container {
     height: 100vh;
   }
@@ -113,7 +112,8 @@
     & .btn-link {
       & a {
         font-size: 18px;
-        background: #8D9CAB url(/images/ico-arrow-white.svg) no-repeat left 35px center;
+        background: #8d9cab url(../images/ico-arrow-white.svg) no-repeat left
+          35px center;
       }
     }
   }
@@ -139,7 +139,7 @@
   }
 }
 
-// * * * * * * * * * doc-contents-page * * * * * * 
+// * * * * * * * * * doc-contents-page * * * * * *
 .doc-contents {
   padding-bottom: 10vw;
 
@@ -175,7 +175,7 @@
   }
 }
 
-// * * * * * * * * * faq-page * * * * * * 
+// * * * * * * * * * faq-page * * * * * *
 .faq-contents {
   & .c-container {
     padding: 0 15vw;
@@ -206,7 +206,7 @@
   }
 }
 
-// * * * * * * * * * news-page * * * * * * 
+// * * * * * * * * * news-page * * * * * *
 .c-news {
   margin-top: 14vw;
   padding: 0 0 5vw 0;
@@ -224,7 +224,7 @@
   }
 }
 
-// * * * * * * * * * news-sl-page * * * * * * 
+// * * * * * * * * * news-sl-page * * * * * *
 .c-news-sl {
   padding: 16vw 10vw 0 10vw;
 }

@@ -3,7 +3,7 @@
   overflow: hidden;
 
   &::after {
-    content: '';
+    content: "";
     position: absolute;
     z-index: 2;
     top: 0;
@@ -83,7 +83,7 @@
 
 .hover-darken {
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
@@ -106,7 +106,7 @@
 }
 
 .bg-img-zoom {
-  background-image: url(images/image-1.jpg);
+  background-image: url(../images/image-1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -119,7 +119,7 @@
 
   &::before {
     display: block;
-    content: '';
+    content: "";
     padding-top: 50%;
   }
 }

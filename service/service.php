@@ -1,3 +1,7 @@
+<?php
+ /* Template Name: service
+ */
+?>
 <!DOCTYPE html>
 <html lang="ja">
 
@@ -5,10 +9,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>診療について | 医院テンプレート3</title>
-  <link rel="stylesheet" href="../styles/vendors/bootstrap-reboot.css" />
-  <link rel="stylesheet" href="../styles/vendors/animsition.min.css" />
-  <link rel="stylesheet" href="../styles/vendors/swiper.min.css" />
-  <link rel="stylesheet" href="/styles/style.css" />
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/styles/vendors/bootstrap-reboot.css" />
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/styles/vendors/animsition.min.css" />
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/styles/vendors/swiper.min.css" />
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/styles/style.css" />
 </head>
 
 <body>
@@ -17,7 +21,7 @@
     <header id="header" class="c-header sp-nav-hid">
       <div class="mobile-container">
         <div class="logo__img">
-          <a class="animsition-link" href="/">
+          <a class="animsition-link" href="<?php echo esc_url( home_url('/')); ?>">
             <div class="logo"></div>
           </a>
         </div>
@@ -34,29 +38,29 @@
 
       <div class="pc-container">
         <div class=" logo__img-pc">
-          <a class="animsition-link" href="/">
+          <a class="animsition-link" href="<?php echo esc_url( home_url('/')); ?>">
             <div class="logo-pc"></div>
           </a>
         </div>
         <nav class="pc-nav">
           <ul class="pc-nav-list">
             <li class="pc-nav-item">
-              <a class="pc-nav-link animsition-link" href="/"><span>ホーム</span></a>
+              <a class="pc-nav-link animsition-link" href="<?php echo esc_url( home_url('/')); ?>"><span>ホーム</span></a>
             </li>
             <li class="pc-nav-item">
-              <a class="pc-nav-link animsition-link " href="/about/about.html"><span>当医院について</span></a>
+              <a class="pc-nav-link animsition-link " href="<?php echo esc_url( home_url('about')); ?>"><span>当医院について</span></a>
             </li>
             <li class="pc-nav-item">
-              <a class="pc-nav-link animsition-link" href="/service/service.html"><span>診療内容</span></a>
+              <a class="pc-nav-link animsition-link" href="<?php echo esc_url( home_url('service')); ?>"><span>診療内容</span></a>
             </li>
             <li class="pc-nav-item">
-              <a class="pc-nav-link animsition-link" href="/doctor/doctor.html"><span>医師紹介</span></a>
+              <a class="pc-nav-link animsition-link" href="<?php echo esc_url( home_url('doctor')); ?>"><span>医師紹介</span></a>
             </li>
             <li class="pc-nav-item">
-              <a class="pc-nav-link animsition-link" href="/faq/faq.html"><span>よくあるご質問</span></a>
+              <a class="pc-nav-link animsition-link" href="<?php echo esc_url( home_url('faq')); ?>"><span>よくあるご質問</span></a>
             </li>
             <li class="pc-nav-item">
-              <a class="pc-nav-link animsition-link" href="/recruit/recruit.html"><span>採用情報</span></a>
+              <a class="pc-nav-link animsition-link" href=" <?php echo esc_url( home_url('ricruit')); ?>"><span>採用情報</span></a>
             </li>
           </ul>
         </nav>
@@ -75,8 +79,8 @@
     <div class="service-contents">
       <div class="c-topview appear up">
         <div class="c-topview__img item">
-          <img class="view-sp" src="/images/home/counseling-2.jpg" alt="">
-          <img class="view-pc" src="/images/home/counseling-2.jpg" alt="">
+          <img class="view-sp" src="<?php echo get_template_directory_uri(); ?>/images/home/counseling-2.jpg" alt="">
+          <img class="view-pc" src="<?php echo get_template_directory_uri(); ?>/images/home/counseling-2.jpg" alt="">
         </div>
       </div>
       <div class="c-container">
@@ -103,9 +107,9 @@
         </section>
         <div id="service1" class="sec-service appear up">
           <figure class="sec-service__img item">
-            <img src="/images/home/clinic__1@pc.jpg" alt="一般内科" />
-            <img src="/images/home/counseling-2.jpg" alt="一般内科" />
-            <img src="/images/home/counseling.jpg" alt="一般内科" />
+            <img src="<?php echo get_template_directory_uri(); ?>/images/home/clinic__1@pc.jpg" alt="一般内科" />
+            <img src="<?php echo get_template_directory_uri(); ?>/images/home/counseling-2.jpg" alt="一般内科" />
+            <img src="<?php echo get_template_directory_uri(); ?>/images/home/counseling.jpg" alt="一般内科" />
           </figure>
           <div class="sec-service__desc item">
             <h2 class="title-circle"><strong class="c-txt-md">一般内科</strong></h2>
@@ -117,9 +121,9 @@
         </div>
         <div id="service2" class="sec-service appear up">
           <figure class="sec-service__img item">
-            <img src="/images/home/medical__3@pc.jpg" alt="耳鼻咽喉科" />
-            <img src="/images/home/c-topview__sp.jpg" alt="耳鼻咽喉科" />
-            <img src="/images/home/naisikyo.jpg" alt="耳鼻咽喉科" />
+            <img src="<?php echo get_template_directory_uri(); ?>/images/home/medical__3@pc.jpg" alt="耳鼻咽喉科" />
+            <img src="<?php echo get_template_directory_uri(); ?>/images/home/c-topview__sp.jpg" alt="耳鼻咽喉科" />
+            <img src="<?php echo get_template_directory_uri(); ?>/images/home/naisikyo.jpg" alt="耳鼻咽喉科" />
           </figure>
           <div class="sec-service__desc item">
             <h2 class="title-circle"><strong class="c-txt-md">耳鼻咽喉科</strong></h2>
@@ -131,9 +135,9 @@
         </div>
         <div id="service3" class="sec-service appear up">
           <figure class="sec-service__img item">
-            <img src="/images/home/ct.jpg" alt="各種検診・診察" />
-            <img src="/images/home/tumiki.jpg" alt="各種検診・診察" />
-            <img src="/images/home/rentogen.jpg" alt="各種検診・診察" />
+            <img src="<?php echo get_template_directory_uri(); ?>/images/home/ct.jpg" alt="各種検診・診察" />
+            <img src="<?php echo get_template_directory_uri(); ?>/images/home/tumiki.jpg" alt="各種検診・診察" />
+            <img src="<?php echo get_template_directory_uri(); ?>/images/home/rentogen.jpg" alt="各種検診・診察" />
           </figure>
           <div class="sec-service__desc item">
             <h2 class="title-circle"><strong class="c-txt-md">各種検診・診察</strong></h2>
@@ -150,9 +154,9 @@
         </div>
         <div id="service4" class="sec-service appear up">
           <figure class="sec-service__img item">
-            <img src="/images/home/clinic-vactin.jpg" alt="予防接種" />
-            <img src="/images/home/medical__4@pc.jpg" alt="予防接種" />
-            <img src="/images/home/doctor__women.jpg" alt="予防接種" />
+            <img src="<?php echo get_template_directory_uri(); ?>/images/home/clinic-vactin.jpg" alt="予防接種" />
+            <img src="<?php echo get_template_directory_uri(); ?>/images/home/medical__4@pc.jpg" alt="予防接種" />
+            <img src="<?php echo get_template_directory_uri(); ?>/images/home/doctor__women.jpg" alt="予防接種" />
           </figure>
           <div class="sec-service__desc item">
             <h2 class="title-circle"><strong class="c-txt-md">予防接種</strong></h2>
@@ -170,7 +174,7 @@
             <ul class="machine-list appear up">
               <li class="item">
                 <figure>
-                  <img src="/images/home/ct.jpg" />
+                  <img src="<?php echo get_template_directory_uri(); ?>/images/home/ct.jpg" />
                 </figure>
                 <h3>CT検査</h3>
                 <p class="c-txt-sm">
@@ -179,7 +183,7 @@
               </li>
               <li class="item">
                 <figure>
-                  <img src="/images/home/naisikyo.jpg" alt="検知液" />
+                  <img src="<?php echo get_template_directory_uri(); ?>/images/home/naisikyo.jpg" alt="検知液" />
                 </figure>
                 <h3>内視鏡検査</h3>
                 <p class="c-txt-sm">
@@ -188,7 +192,7 @@
               </li>
               <li class="item">
                 <figure>
-                  <img src="/images/home/img-point4@2x.jpg" alt="赤外線CCDカメラ" />
+                  <img src="<?php echo get_template_directory_uri(); ?>/images/home/img-point4@2x.jpg" alt="赤外線CCDカメラ" />
                 </figure>
                 <h3>赤外線CCDカメラ</h3>
                 <p class="c-txt-sm">
@@ -197,7 +201,7 @@
               </li>
               <li class="item">
                 <figure>
-                  <img src="/images/home/img-point3@2x.jpg" alt="遠心分離機" />
+                  <img src="<?php echo get_template_directory_uri(); ?>/images/home/img-point3@2x.jpg" alt="遠心分離機" />
                 </figure>
                 <h3>聴力検査室</h3>
                 <p class="c-txt-sm">
@@ -206,7 +210,7 @@
               </li>
               <li class="item">
                 <figure>
-                  <img src="/images/service/img-machine5@2x.jpg" alt="" />
+                  <img src="<?php echo get_template_directory_uri(); ?>/images/service/img-machine5@2x.jpg" alt="" />
                 </figure>
                 <h3>滅菌器</h3>
                 <p class="c-txt-sm">
@@ -215,7 +219,7 @@
               </li>
               <li class="item">
                 <figure>
-                  <img src="/images/service/img-machine6@2x.jpg" alt="" />
+                  <img src="<?php echo get_template_directory_uri(); ?>/images/service/img-machine6@2x.jpg" alt="" />
                 </figure>
                 <h3>滅菌器</h3>
                 <p class="c-txt-sm">
@@ -230,7 +234,7 @@
         <div class="c-container">
           <div class="p-footer-wrap">
             <div class="logo">
-              <a href="/" title="トップページ"><img src="/images/common/riv_logo_official2.png" alt="rivround" /></a>
+              <a href="/" title="トップページ"><img src="<?php echo get_template_directory_uri(); ?>/images/common/riv_logo_official2.png" alt="rivround" /></a>
             </div>
             <div class="p-footer__schedule">
               <table class="table-schedule">
@@ -284,14 +288,14 @@
           <ul class="sns-list">
             <li>
               <a href="https://www.facebook.com/" target="_blank" rel="noopener" title="facebook"><img
-                  src="/images/common/facebook.svg" alt="facebook" /></a>
+                  src="<?php echo get_template_directory_uri(); ?>/images/common/facebook.svg" alt="facebook" /></a>
             </li>
             <li>
               <a href="https://www.instagram.com/" target="_blank" rel="noopener" title="instagram"><img
-                  src="/images/common/insta-black.svg" alt="instagram" /></a>
+                  src="<?php echo get_template_directory_uri(); ?>/images/common/insta-black.svg" alt="instagram" /></a>
             </li>
             <li>
-              <a href="https://line.me/ja/" title="line"><img src="/images/common/LINE_black.svg" alt="line" /></a>
+              <a href="https://line.me/ja/" title="line"><img src="<?php echo get_template_directory_uri(); ?>/images/common/LINE_black.svg" alt="line" /></a>
             </li>
           </ul>
           <small class="copyright">
@@ -306,25 +310,25 @@
       <nav class="mobile-menu__nav">
         <ul class="mobile-menu__list">
           <li class="mobile-menu__item">
-            <a class="animsition-link" href="/">ホーム</a>
+            <a class="animsition-link" href="<?php echo esc_url( home_url('/')); ?>">ホーム</a>
           </li>
           <li class="mobile-menu__item">
-            <a class="animsition-link" href="/about/about.html">当医院について</a>
+            <a class="animsition-link" href="<?php echo esc_url( home_url('about')); ?>">当医院について</a>
           </li>
           <li class="mobile-menu__item">
-            <a class="animsition-link" href="/service/service.html">診療内容</a>
+            <a class="animsition-link" href="<?php echo esc_url( home_url('service')); ?>">診療内容</a>
           </li>
           <li class="mobile-menu__item">
-            <a class="animsition-link" href="/doctor/doctor.html">医師紹介</a>
+            <a class="animsition-link" href="<?php echo esc_url( home_url('doctor')); ?>">医師紹介</a>
           </li>
           <li class="mobile-menu__item">
-            <a class="animsition-link" href="/faq/faq.html">よくある質問</a>
+            <a class="animsition-link" href="<?php echo esc_url( home_url('faq')); ?>">よくある質問</a>
           </li>
           <li class="mobile-menu__item">
-            <a class="animsition-link" href="/news/news.html">お知らせ</a>
+            <a class="animsition-link" href="<?php echo esc_url( home_url('news')); ?>">お知らせ</a>
           </li>
           <li class="mobile-menu__item">
-            <a class="animsition-link" href="/recruit/recruit.html">採用情報</a>
+            <a class="animsition-link" href=" <?php echo esc_url( home_url('ricruit')); ?>">採用情報</a>
           </li>
         </ul>
         <div class="reserve-btn-wrap">
@@ -347,13 +351,13 @@
   </div>
   <!-- /#main-wrapper -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-  <script src="/scripts/vendors/animsition.min.js"></script>
-  <script src="/scripts/libs/page.js"></script>
-  <script src="../scripts/libs/mobile-menu.js"></script>
-  <script src="../scripts/libs/scroll-btn.js"></script>
-  <script src="../scripts/libs/text-animation.js"></script>
-  <script src="../scripts/libs/scroll.js"></script>
-  <script src="../scripts/c-main.js"></script>
+  <script src="<?php echo get_template_directory_uri(); ?>/scripts/vendors/animsition.min.js"></script>
+  <script src="<?php echo get_template_directory_uri(); ?>/scripts/libs/page.js"></script>
+  <script src="<?php echo get_template_directory_uri(); ?>/scripts/libs/mobile-menu.js"></script>
+  <script src="<?php echo get_template_directory_uri(); ?>/scripts/libs/scroll-btn.js"></script>
+  <script src="<?php echo get_template_directory_uri(); ?>/scripts/libs/text-animation.js"></script>
+  <script src="<?php echo get_template_directory_uri(); ?>/scripts/libs/scroll.js"></script>
+  <script src="<?php echo get_template_directory_uri(); ?>/scripts/c-main.js"></script>
 </body>
 
 </html>

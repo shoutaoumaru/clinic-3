@@ -1,7 +1,6 @@
 .c-header {
-
   & .logo {
-    background-image: url(/images/common/riv_logo_official2.png);
+    background-image: url(../images/common/riv_logo_official2.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -10,7 +9,7 @@
     margin: 5px 0 0 20px;
 
     &.inview {
-      background-image: url(/images/common/riv_logo_official-wh2.png);
+      background-image: url(../images/common/riv_logo_official-wh2.png);
     }
   }
 
@@ -21,7 +20,7 @@
     z-index: 3000;
   }
 
-  @media (min-width:600px) {
+  @media (min-width: 600px) {
     .mobile-container {
       .mobile-button {
         top: 45px;
@@ -33,7 +32,7 @@
 
 .logo-pc {
   text-align: center;
-  background-image: url(/images/common/riv_logo_official2.png);
+  background-image: url(../images/common/riv_logo_official2.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -41,7 +40,7 @@
   width: 200px;
 
   &.inview {
-    background-image: url(/images/common/riv_logo_official-wh2.png);
+    background-image: url(../images/common/riv_logo_official-wh2.png);
   }
 }
 
@@ -50,7 +49,7 @@
   bottom: 0;
   left: 0;
   background-color: $cWhite;
-  opacity: .7;
+  opacity: 0.7;
   height: 6.5vh;
   width: 100%;
   z-index: 2000;
@@ -96,7 +95,7 @@
   }
 }
 
-@media (min-width:960px) {
+@media (min-width: 960px) {
   .logo__img {
     display: none;
   }
@@ -119,7 +118,7 @@
   }
 }
 
-@media (max-width:959px) {
+@media (max-width: 959px) {
   .pc-container {
     display: none;
   }
@@ -187,14 +186,14 @@
         letter-spacing: 2px;
 
         &::after {
-          content: '';
+          content: "";
           display: inline-block;
           position: absolute;
           top: 12px;
           right: 5px;
           height: 12px;
           width: 12px;
-          background-image: url(/images/common/icon-link-1-black.png);
+          background-image: url(../images/common/icon-link-1-black.png);
           background-size: contain;
           background-repeat: no-repeat;
         }
@@ -206,14 +205,14 @@
         letter-spacing: 4px;
 
         &::after {
-          content: '';
+          content: "";
           display: inline-block;
           position: absolute;
           top: 13px;
           right: 10px;
           height: 12px;
           width: 12px;
-          background-image: url(/images/common/icon-tel.png);
+          background-image: url(../images/common/icon-tel.png);
           background-size: contain;
           background-repeat: no-repeat;
         }
@@ -221,7 +220,7 @@
     }
   }
 
-  @media (min-width:600px) {
+  @media (min-width: 600px) {
     .reserve-btn-wrap {
       padding-left: 10vw;
 
@@ -280,7 +279,7 @@
     outline: none !important;
     cursor: pointer;
 
-    &>span {
+    & > span {
       background-color: $cBlack;
       width: 30px;
       height: 1px;
@@ -317,7 +316,7 @@
   }
 
   .mobile-menu__btn {
-    &>span {
+    & > span {
       background-color: $cBlack;
 
       &:nth-child(1) {

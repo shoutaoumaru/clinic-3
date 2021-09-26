@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>お知らせ詳細 | 医院テンプレート3</title>
-    <link rel="stylesheet" href="../styles/vendors/bootstrap-reboot.css" />
-    <link rel="stylesheet" href="../styles/vendors/animsition.min.css" />
-    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/styles/vendors/bootstrap-reboot.css" />
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/styles/vendors/animsition.min.css" />
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/styles/style.css" />
   </head>
 
   <body>
@@ -15,7 +15,7 @@
       <header id="header" class="c-header sp-nav-hid">
         <div class="mobile-container">
           <div class="logo__img">
-            <a class="animsition-link" href="/">
+            <a class="animsition-link" href="<?php echo esc_url( home_url('/')); ?>">
               <div class="logo"></div>
             </a>
           </div>
@@ -32,45 +32,45 @@
 
         <div class="pc-container">
           <div class="logo__img-pc">
-            <a class="animsition-link" href="/">
+            <a class="animsition-link" href="<?php echo esc_url( home_url('/')); ?>">
               <div class="logo-pc"></div>
             </a>
           </div>
           <nav class="pc-nav">
             <ul class="pc-nav-list">
               <li class="pc-nav-item">
-                <a class="pc-nav-link animsition-link" href="/"
+                <a class="pc-nav-link animsition-link" href="<?php echo esc_url( home_url('/')); ?>"
                   ><span>ホーム</span></a
                 >
               </li>
               <li class="pc-nav-item">
-                <a class="pc-nav-link animsition-link" href="/about/about.html"
+                <a class="pc-nav-link animsition-link" href="<?php echo esc_url( home_url('about')); ?>"
                   ><span>当医院について</span></a
                 >
               </li>
               <li class="pc-nav-item">
                 <a
                   class="pc-nav-link animsition-link"
-                  href="/service/service.html"
+                  href="<?php echo esc_url( home_url('service')); ?>"
                   ><span>診療内容</span></a
                 >
               </li>
               <li class="pc-nav-item">
                 <a
                   class="pc-nav-link animsition-link"
-                  href="/doctor/doctor.html"
+                  href="<?php echo esc_url( home_url('doctor')); ?>"
                   ><span>医師紹介</span></a
                 >
               </li>
               <li class="pc-nav-item">
-                <a class="pc-nav-link animsition-link" href="/faq/faq.html"
+                <a class="pc-nav-link animsition-link" href="<?php echo esc_url( home_url('faq')); ?>"
                   ><span>よくあるご質問</span></a
                 >
               </li>
               <li class="pc-nav-item">
                 <a
                   class="pc-nav-link animsition-link"
-                  href="/recruit/recruit.html"
+                  href=" <?php echo esc_url( home_url('ricruit')); ?>"
                   ><span>採用情報</span></a
                 >
               </li>
@@ -96,7 +96,7 @@
       </header>
       <!-- /.c-header -->
       <div class="c-top-view">
-        <img src="/images/home/clinic__1@pc.jpg" alt="" />
+        <img src="<?php echo get_template_directory_uri(); ?>/images/home/clinic__1@pc.jpg" alt="" />
       </div>
       <!-- /.c-top-view -->
       <section class="c-news-sl">
@@ -118,7 +118,7 @@
             </li>
           </ul>
           <div class="c-news-sl__link">
-            <a class="more-link animsition-link" href="/news/news.html"
+            <a class="more-link animsition-link" href="<?php echo esc_url( home_url('news')); ?>"
               ><span class="readmore">一覧へ戻る</span></a
             >
           </div>
@@ -131,7 +131,7 @@
             <div class="logo">
               <a href="/" title="トップページ"
                 ><img
-                  src="/images/common/riv_logo_official2.png"
+                  src="<?php echo get_template_directory_uri(); ?>/images/common/riv_logo_official2.png"
                   alt="rivround"
               /></a>
             </div>
@@ -193,7 +193,7 @@
                 target="_blank"
                 rel="noopener"
                 title="facebook"
-                ><img src="/images/common/facebook.svg" alt="facebook"
+                ><img src="<?php echo get_template_directory_uri(); ?>/images/common/facebook.svg" alt="facebook"
               /></a>
             </li>
             <li>
@@ -202,12 +202,12 @@
                 target="_blank"
                 rel="noopener"
                 title="instagram"
-                ><img src="/images/common/insta-black.svg" alt="instagram"
+                ><img src="<?php echo get_template_directory_uri(); ?>/images/common/insta-black.svg" alt="instagram"
               /></a>
             </li>
             <li>
               <a href="https://line.me/ja/" title="line"
-                ><img src="/images/common/LINE_black.svg" alt="line"
+                ><img src="<?php echo get_template_directory_uri(); ?>/images/common/LINE_black.svg" alt="line"
               /></a>
             </li>
           </ul>
@@ -219,29 +219,29 @@
         <nav class="mobile-menu__nav">
           <ul class="mobile-menu__list">
             <li class="mobile-menu__item">
-              <a class="animsition-link" href="/">ホーム</a>
+              <a class="animsition-link" href=" <?php echo esc_url( home_url('/')); ?>">ホーム</a>
             </li>
             <li class="mobile-menu__item">
-              <a class="animsition-link" href="/about/about.html"
+              <a class="animsition-link" href="<?php echo esc_url( home_url('about')); ?>"
                 >当医院について</a
               >
             </li>
             <li class="mobile-menu__item">
-              <a class="animsition-link" href="/service/service.html"
+              <a class="animsition-link" href="<?php echo esc_url( home_url('service')); ?>"
                 >診療内容</a
               >
             </li>
             <li class="mobile-menu__item">
-              <a class="animsition-link" href="/doctor/doctor.html">医師紹介</a>
+              <a class="animsition-link" href="<?php echo esc_url( home_url('doctor')); ?>">医師紹介</a>
             </li>
             <li class="mobile-menu__item">
-              <a class="animsition-link" href="/faq/faq.html">よくある質問</a>
+              <a class="animsition-link" href="<?php echo esc_url( home_url('faq')); ?>">よくある質問</a>
             </li>
             <li class="mobile-menu__item">
-              <a class="animsition-link" href="/news/news.html">お知らせ</a>
+              <a class="animsition-link" href="<?php echo esc_url( home_url('news')); ?>">お知らせ</a>
             </li>
             <li class="mobile-menu__item">
-              <a class="animsition-link" href="/recruit/recruit.html"
+              <a class="animsition-link" href=" <?php echo esc_url( home_url('ricruit')); ?>"
                 >採用情報</a
               >
             </li>
@@ -268,11 +268,11 @@
     </div>
     <!-- .superwrapper -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="/scripts/vendors/animsition.min.js"></script>
-    <script src="/scripts/libs/page.js"></script>
-    <script src="../scripts/libs/mobile-menu.js"></script>
-    <script src="../scripts/libs/scroll-btn.js"></script>
-    <script src="../scripts/libs/scroll.js"></script>
-    <script src="../scripts/c-main.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/scripts/vendors/animsition.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/scripts/libs/page.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/scripts/libs/mobile-menu.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/scripts/libs/scroll-btn.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/scripts/libs/scroll.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/scripts/c-main.js"></script>
   </body>
 </html>
